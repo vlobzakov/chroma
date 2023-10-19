@@ -120,7 +120,7 @@ def PersistentClient(path: str = "./chroma", settings: Settings = Settings()) ->
 
 
 def HttpClient(
-    host: str = "localhost",
+    host: str = "0.0.0.0",
     port: str = "8000",
     ssl: bool = False,
     headers: Dict[str, str] = {},
